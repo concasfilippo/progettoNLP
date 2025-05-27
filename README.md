@@ -6,7 +6,7 @@ pip install -r requirements.txt
 
 # Struttura del progetto
 
-Dataset (immagini e testo)
+Dataset (immagini e testo) non caricato. Presenta la seguente struttura, che si può replicare con lo script pre_processing.ipynb indicato di sotto:
 - /pre-processing/datasets/train/[classe]/ #tutte le immagini di classe [classe] per il training
 - /pre-processing/datasets/val/[classe]/ #tutte le immagini di classe [classe] per il validation set
 - /pre-processing/datasets/test/[classe]/ #tutte le immagini di classe [classe] per il test set
@@ -23,6 +23,7 @@ Pre-processing ed analisi del dataset:
     - Extra: visualizzazione delle wordcloud
 
 Modelli usati:
+
 (clip)
 - /models/model_clip-vit-large-patch14_GridSearch.ipynb
     Si tratta di uno script con cui è stata eseguita la Grid Search usando come modello clip vit lagre patch 14
